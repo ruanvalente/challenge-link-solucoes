@@ -1,0 +1,22 @@
+{
+  "person": [
+    {
+      "name": "Ruan Souza",
+      "email": "email@email.com",
+      "login": "ruanvalente",
+      "password": "2381881",
+      "age": "23",
+      "status": "ativo",
+      "id": 1
+    },
+    {
+      "name": "Novo usuário",
+      "email": "usuario@gmail.com",
+      "login": "superuser",
+      "password": "28281918",
+      "age": "28",
+      "status": "ativo",
+      "id": 2
+    }
+  ]
+}
