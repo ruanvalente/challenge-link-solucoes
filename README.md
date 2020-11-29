@@ -1,27 +1,82 @@
-# ChallengeApp
+<h3 align="center">
+  Link Soluções | Challenge
+</h3>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
+<img src="https://i.postimg.cc/G2XN22gX/screen.png" alt="Link Soluções Challenge Screen"/>
 
-## Development server
+<blockquote align="center">“Não espere para plantar, apenas tenha paciência para colher”!</blockquote>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## :rocket: Sobre a aplicação
 
-## Code scaffolding
+Aplicação de teste para vaga de desenvolvedor frontend na **[Link Soluções]**
+:smile:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+O teste consiste em criar um web app para cadastro de pessoas utilizando **Angular**.
 
-## Build
+## Requisitos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- Construir a estrutura do projeto utilizando o npm (gerenciador de pacotes do Node.js);
 
-## Running unit tests
+- Criar uma página de cadastro de Pessoa com os seguintes campos: ID, Nome, Email, Idade, Login, Senha e Status (ativo/inativo).
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Criar uma listagem dos usuários cadastrados através de uma GRID.
 
-## Running end-to-end tests
+- Criar a rota linkando uma página a outra (Adicionar Pessoa e Listar Pessoa).
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- Implementar o consumo da API.
 
-## Further help
+## Tecnologias utilizadas :memo:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- [Angular v11.0.2](https://angular.io)
+- [Bootstrap v4.5.3](https://getbootstrap.com)
+- [TypeScript v4.0.2](https://www.typescriptlang.org)
+- [ngx-toastr v13.1.0](https://ngx-toastr.vercel.app)
+- [Angular CLI: v11.0.2](https://cli.angular.io)
+- [Node: v14.15.1](https://nodejs.org/en/)
+
+## Como utilizar 🤔
+
+É necessário que você tenha o angular-cli instalado em sua máquina para que você consiga utilizar o `ng serve`, para subir o seu projeto.
+
+Para insalar basta rodar o comando abaixo:
+
+```
+npm install -g @angular/cli
+```
+
+Agora clone este repositório.
+
+```
+git clone https://github.com/ruanvalente/challenge-link-solucoes
+```
+
+Entre na pasta `challenge-link-solucoes` e rode o comando `yarn` ou `npm install`, para instalar as dependências do projeto.
+
+```
+cd challenge-link-solucoes
+
+ng serve
+```
+
+E pronto, seu servidor vai estar rodando em `http://localhost:4200/` :smile:
+
+## Executando os testes
+
+Entre na pasta do projeto e rode o seguinte comando `ng test`
+
+Para mais informações sobre o [Karma](https://karma-runner.github.io).
+
+## Build do projeto
+
+Execute o comando `ng build` para fazer o build do projeto. Todos os arquivos estarão dentro do diretório `dist/`. Você pode utilizar a flag `--prod` para fazer o build para produção.
+
+
+## Veja a aplicação no ar :smile:
+
+`Em breve`
+
+E agora é só se divertir :smile:
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
