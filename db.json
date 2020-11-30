@@ -10,13 +10,13 @@
       "id": 1
     },
     {
-      "name": "Novo usuário",
-      "email": "usuario@gmail.com",
-      "login": "superuser",
-      "password": "28281918",
-      "age": "28",
+      "name": "Julia Monteiro",
+      "email": "jumont@gmail.com",
+      "login": "julmont",
+      "password": "282828212",
+      "age": "25",
       "status": "ativo",
-      "id": 2
+      "id": 3
     }
   ]
 }

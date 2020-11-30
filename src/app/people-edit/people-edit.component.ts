@@ -11,7 +11,7 @@ import { Person } from './../models/person';
   styleUrls: ['./people-edit.component.css'],
 })
 export class PeopleEditComponent implements OnInit {
-  people: Person;
+  people = {} as Person;
   form: FormGroup;
   status: string[] = ['ativo', 'inativo'];
   constructor(
