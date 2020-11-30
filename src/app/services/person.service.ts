@@ -1,3 +1,4 @@
+import { environment } from '../../environments/environment';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
@@ -8,7 +9,9 @@ import { Person } from '../models/person';
   providedIn: 'root',
 })
 export class PersonService {
-  url = 'https://challenge-link-solucoes-backen.herokuapp.com/person'; // api rest fake
+  url = environment.production
+    ? `${environment.API}/person`
+    : `${environment.API}/person`; // api rest fake
 
   // injetando o HttpClient
   constructor(private httpClient: HttpClient) {}
