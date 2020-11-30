@@ -8,9 +8,7 @@ import { Person } from '../models/person';
   providedIn: 'root',
 })
 export class PersonService {
-  url =
-    'http://localhost:3000/person' ||
-    'https://challenge-link-solucoes-backen.herokuapp.com/person'; // api rest fake
+  url = 'https://challenge-link-solucoes-backen.herokuapp.com/person'; // api rest fake
 
   // injetando o HttpClient
   constructor(private httpClient: HttpClient) {}
