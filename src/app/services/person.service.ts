@@ -9,9 +9,7 @@ import { Person } from '../models/person';
   providedIn: 'root',
 })
 export class PersonService {
-  url = environment.production
-    ? `${environment.API}/person`
-    : `${environment.API}/person`; // api rest fake
+  url =`${environment.API}/person`; // api rest fake
 
   // injetando o HttpClient
   constructor(private httpClient: HttpClient) {}
