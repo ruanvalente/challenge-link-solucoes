@@ -8,7 +8,7 @@
 
 ## :rocket: Sobre a aplicação
 
-Aplicação de teste para vaga de desenvolvedor frontend na **[Link Soluções]**
+Aplicação de teste para vaga de desenvolvedor frontend na **Link Soluções**
 :smile:
 
 O teste consiste em criar um web app para cadastro de pessoas utilizando **Angular**.
@@ -33,6 +33,7 @@ O teste consiste em criar um web app para cadastro de pessoas utilizando **Angul
 - [ngx-toastr v13.1.0](https://ngx-toastr.vercel.app)
 - [Angular CLI: v11.0.2](https://cli.angular.io)
 - [Node: v14.15.1](https://nodejs.org/en/)
+- [json-server v0.16.3](https://www.npmjs.com/package/json-server)
 
 ## Como utilizar 🤔
 
@@ -60,7 +61,22 @@ ng serve
 
 E pronto, seu servidor vai estar rodando em `http://localhost:4200/` :smile:
 
-## Executando os testes
+Para o consumo da API foi utilizado `json-server` que cria uma api rest fake baseado em um arquivo `.json`
+
+Para executar o backend basta roda os seguintes comandos:
+
+```
+npm install -g json-server
+```
+
+Agora com o pacote instalado basta executar o seguinte comando dentro da pasta do projeto para subir o servidor:
+
+```
+json-server db.json  --watch
+```
+E pronto :smile:
+
+## Executando os testes :smile:
 
 Entre na pasta do projeto e rode o seguinte comando `ng test`
 
@@ -73,7 +89,10 @@ Execute o comando `ng build` para fazer o build do projeto. Todos os arquivos es
 
 ## Veja a aplicação no ar :smile:
 
-`Em breve`
+Foi utilizado a plataforma [vercel](https://vercel.com) para o deploy do frontend e para o backend foi utilizada a plataforma [heroku](https://heroku.com)
+
+- [Link Soluções - FrontEnd](https://challenge-link-solucoes.vercel.app)
+- [Link Soluções - Backend](https://challenge-link-solucoes-backen.herokuapp.com)
 
 E agora é só se divertir :smile:
 
