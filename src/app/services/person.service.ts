@@ -8,7 +8,9 @@ import { Person } from '../models/person';
   providedIn: 'root',
 })
 export class PersonService {
-  url = 'http://localhost:3000/person'; // api rest fake
+  url =
+    'http://localhost:3000/person' ||
+    'https://challenge-link-solucoes-backen.herokuapp.com/person'; // api rest fake
 
   // injetando o HttpClient
   constructor(private httpClient: HttpClient) {}
@@ -27,7 +29,7 @@ export class PersonService {
   }
 
   save(person: Person): Observable<Person> {
-    if(person.id) {
+    if (person.id) {
       return this.httpClient.put<Person>(`${this.url}/${person.id}`, person);
     } else {
       return this.httpClient.post<Person>(`${this.url}`, person);
